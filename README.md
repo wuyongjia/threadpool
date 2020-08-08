@@ -7,9 +7,10 @@
 package main
 
 import (
-	"common/lib/threadpool"
 	"fmt"
 	"time"
+
+	"github.com/wuyongjia/threadpool"
 )
 
 type request struct {
