@@ -33,8 +33,6 @@ func (p *Pool) start() {
 				args, ok = <-p.Args
 				if ok {
 					p.Func(args)
-				} else {
-					break
 				}
 			}
 		}()
